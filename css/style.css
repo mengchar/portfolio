@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600) {
+    .container{ 
+        grid-template-rows: 300px 300px 300px 300px 300px;
+
+        grid-template-columns: 1fr;
+    }
+}
+
 body {
     background-color: #FAFAFA;
     font-family: 'Helvetica Neue';
